@@ -26,7 +26,7 @@ let timetable = {
 };
 document.getElementById('ShowMe').addEventListener('click',update);
 function update(){
-    let timing = new Date(2022,7,2,14,40,30);
+    let timing = new Date();
     if(timing.getDay()==2){
 	DayList = timetable["Wednesday"];
 	for(var i=0;i<DayList.length;i++){
