@@ -22,6 +22,43 @@ let timetable = {
 	    "class_name":"Advanced Programming"
 	}	
 	
+    ],
+    "Thursday":[
+	{
+	    "Start":"0930",
+	    "End":"1110",
+	    "Teacher_Name":"Annie Gill",
+	    "Room_no":309,
+	    "class_name":"Soft Skills"
+	},
+	{
+	    "Start":"1110",
+	    "End":"1200",
+	    "Teacher_Name":"Dayal Chandra Sati",
+	    "Room_no":507,
+	    "class_name":"Soft Computing"
+	},
+	{
+	    "Start":"1300",
+	    "End":"1350",
+	    "Teacher_Name":"Poonam Yadav",
+	    "Room_no":501,
+	    "class_name":"Advanced Machine Learning"
+	},
+	{
+	    "Start":"1350",
+	    "End":"1440",
+	    "Teacher_Name":"Richa Singh",
+	    "Room_no":510,
+	    "class_name":"Advanced Programming"
+	},
+	{
+	    "Start":"1440",
+	    "End":"1620",
+	    "Teacher_Name":"Sant Kumar Maurya",
+	    "Room_no":207,
+	    "class_name":"Computer Networks Lab"
+	}	
     ]
 };
 document.getElementById('ShowMe').addEventListener('click',update);
